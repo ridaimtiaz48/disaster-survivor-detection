@@ -1,0 +1,11 @@
+# YOLO dataset configuration
+# NOTE: Update these paths to match your local/Colab dataset structure before training.
+# These should NOT be your personal Google Drive absolute paths (e.g. /content/drive/MyDrive/...)
+# — replace with relative paths so anyone cloning the repo can use it.
+
+train: dataset/images/train
+val: dataset/images/val
+test: dataset/images/test
+
+nc: 1
+names: ['survivor']
