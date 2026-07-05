@@ -1,0 +1,43 @@
+# Model weights (large files - use GitHub Releases or Git LFS instead)
+*.pt
+*.pth
+*.onnx
+
+# Training run outputs (large, regenerable)
+runs/
+sar_output/
+
+# Dataset (too large / not yours to redistribute - link to source in README instead)
+dataset/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
